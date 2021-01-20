@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Education from "./Components/Education";
+import Experience from "./Components/Experience";
+import Certifications from "./Components/Certifications";
+import Footer from "./Components/Footer";
+import Works from "./Components/Works";
+import Contact from "./Components/Contact";
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Education />
+      <Experience />
+      <Works />
+      <Certifications />
+      <Contact />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

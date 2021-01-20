@@ -1,0 +1,19 @@
+{
+  "home": {
+    "name": "I am what I am.",
+    "occupation": "whatever-you-need-me-to",
+    "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso."
+  },
+  "about": {
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet odio feugiat aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque varius ut neque quis sagittis. Donec pellentesque, mauris ac fermentum semper, enim leo convallis tellus, sit amet pellentesque orci mi id urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    "name": "Real Name",
+    "street": "Streety Streat",
+    "city": "Night City",
+    "state": "",
+    "phone": "555-555-555",
+    "postal_code": "66-666",
+    "email": "email@email",
+    "profile_pic": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b16628f6450811e9154eb9fbe524692577072770_full.jpg",
+    "resume_link": "#"
+  }
+}

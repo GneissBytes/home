@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.sticky-top {
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbarfull {
+  transition: all 1s;
+  height: 50px;
+}
+
+.navbarfull .item-list {
+  padding-top: 12.5px;
+}
+
+.active {
+  color: #cc5200;
+}
+
+.active:hover {
+  color: #cc5200;
+  text-decoration: none;
+}
+
+.nav-item {
+  cursor: default;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.item-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.item-list .nav-item {
+  float: left;
+}
+
+.item-list-vertical {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 70px 35px;
+  display: block;
+  list-style-type: none;
+  padding: 10px 20px;
+  background-color: #2b2b2bec;
+  float: right;
+}
+
+.item-list-vertical .nav-item {
+  margin: 10px 0;
+}
+
+.nav-button {
+  float: right;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #cc5200;
+  font-weight: bold;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.home {
+  height: 100vh;
+  background-image: url("/images/zion-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 5em 1em #000;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.432);
+  padding: 10px;
+  margin: auto;
+}
+
+.scroll-button {
+  position: absolute;
+  margin: 0 0 20px 0;
+  bottom: 0;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background-color: white;
+  color: black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.scroll-button:hover {
+  background-color: rgb(198, 198, 157);
+  color: black;
+  padding-top: 30px;
+}
+
+.about-container {
+  background-color: #2b2b2b;
+  min-height: 300px;
+  padding-top: 60px;
+  padding-bottom: 25px;
+}
+
+.profile-pic {
+  height: 184px;
+  align-self: center;
+  margin: auto;
+  padding-top: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #444;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #444;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.education-container {
+  min-height: 500px;
+}
+
+.header-home {
+  font-size: 4em;
+}
+
+.experience-container {
+  min-height: 500px;
+  background-color: green;
+}
+
+@media screen and (max-width: 500px) {
+  .header-home {
+    font-size: 2em;
+  }
+}
+
+.certs-container {
+  min-height: 500px;
+}
+
+.footer-container {
+  min-height: 500px;
+}
+
+.works-container {
+  min-height: 500px;
+}
+
+.contact-container {
+  min-height: 500px;
+}
