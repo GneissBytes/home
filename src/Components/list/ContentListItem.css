@@ -1,0 +1,26 @@
+.content-item-container {
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.header {
+  margin: 0;
+}
+
+.subheader {
+  margin-bottom: 3px;
+  font-style: italic;
+  color: gray;
+}
+
+.subtitle {
+  margin: 5px 0;
+}
+
+.subdescription {
+  font-style: italic;
+  font-weight: lighter;
+  color: gray;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}

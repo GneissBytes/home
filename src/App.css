@@ -1,0 +1,31 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+hr {
+  background-color: #fafbff;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-list-header {
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: underline;
+  color: #2b2b2b;
+  text-decoration-color: #2b2b2b;
+  text-decoration-thickness: 5px;
+}
+
+.resume-container {
+  min-height: 500px;
+  padding: 25px 0;
+  background-color: #fafbff;
+  margin: 0;
+}

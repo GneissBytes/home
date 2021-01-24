@@ -2,29 +2,16 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 import { List } from "react-bootstrap-icons";
 
-function getWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window;
-  return {
-    width,
-    height,
-  };
-}
+import "./Navbar.css";
+import useWidth from "./hooks/useWidth";
 
 const Navbar: React.FC = () => {
-  const [windowDimensions, setWindowDimensions] = useState(
-    getWindowDimensions()
-  );
   const [menuHidden, setMenuHidden] = useState(true);
+  const [collapseNavbar] = useWidth(768);
   const [navPosition, setNavPosition] = useState("top");
   const navMenu = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    function handleResize() {
-      setWindowDimensions(getWindowDimensions());
-    }
-
-    window.addEventListener("resize", handleResize);
-
     //@ts-ignore
     const onBodyClick = (event) => {
       if (navMenu.current && navMenu.current.contains(event.target)) {
@@ -49,7 +36,6 @@ const Navbar: React.FC = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener("resize", handleResize);
       window.removeEventListener("scroll", handleScroll);
       document.body.removeEventListener("click", onBodyClick);
     };
@@ -60,8 +46,9 @@ const Navbar: React.FC = () => {
     "about",
     "education",
     "experience",
-    "works",
+    "skills",
     "certifications",
+    "works",
     "contact",
   ];
   const navitems = sections.map((section) => (
@@ -70,7 +57,7 @@ const Navbar: React.FC = () => {
       to={section}
       spy={true}
       smooth={true}
-      offset={0}
+      offset={-100}
       duration={500}
       activeClass="active"
     >
@@ -87,7 +74,7 @@ const Navbar: React.FC = () => {
   };
 
   const renderMenu = () => {
-    if (windowDimensions.width >= 768) {
+    if (collapseNavbar) {
       return (
         <div
           className="sticky-top navbarfull"

@@ -1,0 +1,79 @@
+.active {
+  color: #cc5200;
+}
+
+.active:hover {
+  color: #cc5200;
+  text-decoration: none;
+}
+
+.nav-item {
+  cursor: default;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.sticky-top {
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbarfull {
+  transition: all 1s;
+  height: 50px;
+}
+
+.navbarfull .item-list {
+  padding-top: 12.5px;
+}
+
+.item-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.item-list .nav-item {
+  float: left;
+}
+
+.item-list-vertical {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 70px 35px;
+  display: block;
+  list-style-type: none;
+  padding: 10px 20px;
+  background-color: #2b2b2bec;
+  float: right;
+}
+
+.item-list-vertical .nav-item {
+  margin: 10px 0;
+}
+
+
+.nav-button {
+    float: right;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #cc5200;
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 20px;
+  }

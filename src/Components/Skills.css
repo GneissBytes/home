@@ -1,0 +1,7 @@
+.skills-list:last-child {
+    margin-bottom:30px
+}
+
+.resume-container.skills-container {
+    min-height: 0;
+}

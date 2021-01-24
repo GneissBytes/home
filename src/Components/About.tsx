@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Download } from "react-bootstrap-icons";
+
+import './About.css'
 import { State } from "../reducers";
 import { About as AboutType} from "../reducers/dataReducer";
 
@@ -42,9 +44,9 @@ const About: React.FC<AboutProps> = ({ data }) => {
                   <span>{data.email}</span>
                 </p>
               </div>
-              <div className="col-md resume-container">
+              <div className="col-md resume-button-container ">
                 <p>
-                  <a className="button" href={data.resume_link}>
+                  <a className="resume-button" href={data.resume_link}>
                     <Download />
                     <span style={{ marginLeft: "5px" }}>
                       Download my Resume

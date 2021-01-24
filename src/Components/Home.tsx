@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Link } from "react-scroll";
-import { ArrowDown as Arrow } from "react-bootstrap-icons";
 
+import "./Home.css";
+import ScrollButton from "./elements/ScrollButton";
 import { State } from "../reducers";
 import { Home as HomeType } from "../reducers/dataReducer";
 
@@ -27,16 +27,7 @@ const Home: React.FC<HomeProps> = ({ data }) => {
             </div>
           </div>
         </div>
-        <Link
-          className="scroll-button"
-          to="about"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-        >
-          <Arrow className="arrow" />
-        </Link>
+        <ScrollButton direction="bottom" />
       </div>
     </div>
   );

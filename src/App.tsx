@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./App.css";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
@@ -9,6 +10,7 @@ import Certifications from "./Components/Certifications";
 import Footer from "./Components/Footer";
 import Works from "./Components/Works";
 import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
 
 const App: React.FC = () => {
   return (
@@ -18,8 +20,9 @@ const App: React.FC = () => {
       <About />
       <Education />
       <Experience />
-      <Works />
+      <Skills />
       <Certifications />
+      <Works />
       <Contact />
       <Footer />
     </div>

@@ -1,0 +1,37 @@
+.about-container {
+    background-color: #2b2b2b;
+    min-height: 250px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .profile-pic {
+    height: 184px;
+    align-self: center;
+    margin: auto;
+    padding-top: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  .resume-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .resume-button {
+    background-color: #444;
+    padding: 10px;
+    color:  #fafbff;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    font-size: 18px;
+  }
+  
+  .resume-button:hover {
+    background-color: #fafbff;
+    color: #444;
+  }
