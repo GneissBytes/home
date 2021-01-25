@@ -18,7 +18,7 @@ const Home: React.FC<HomeProps> = ({ data }) => {
         <ul className="social-links">
           {data.social_links.map((link) => {
             return (
-              <li>
+              <li key={link.site}>
                 <SocialLink site={link.site} url={link.url} />{" "}
               </li>
             );

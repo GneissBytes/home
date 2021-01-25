@@ -28,7 +28,7 @@ const ContactFieldValidated: React.FC<FieldProps> = ({
           <div className="col-md-2 field-label-container">
             <label className="field-label">{label}</label>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-10">
             {component === "input" ? (
               <input {...input} type={type} placeholder={placeholder} />
             ) : (
