@@ -4,20 +4,19 @@
     "occupation": "whatever-you-need-me-to",
     "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso.",
     "social_links": [
-      { "site": "linkedin", "url": "http://linkedin.com" },
-      { "site": "github", "url": "http://linkedin.com" },
-      { "site": "stack", "url": "http://linkedin.com" }
+      { "site": "linkedin", "url": "https://www.linkedin.com/in/pulasiewicz/" },
+      { "site": "github", "url": "https://github.com/GneissBytes" },
+      {
+        "site": "stack",
+        "url": "https://stackoverflow.com/users/15076390/gneissbyte"
+      }
     ]
   },
   "about": {
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet odio feugiat aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque varius ut neque quis sagittis. Donec pellentesque, mauris ac fermentum semper, enim leo convallis tellus, sit amet pellentesque orci mi id urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-    "name": "Real Name",
-    "street": "Streety Streat",
-    "city": "Night City",
-    "state": "Sober",
-    "phone": "555-555-555",
-    "postal_code": "66-666",
-    "email": "email@email",
+    "name": "Piotr Ułasiewicz",
+    "city": "Cracow",
+    "email": "pi.ulasiewicz@gmail.com",
     "profile_pic": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b16628f6450811e9154eb9fbe524692577072770_full.jpg",
     "resume_link": "#"
   },
@@ -28,15 +27,15 @@
       "degree": "Master's degree in Applied Geophysics",
       "graduated": "Dec 2020",
       "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso.",
-      "thesis": "To be or not to be? A major thesis."
+      "thesis": "Comparison of 1D and 2D inversion algorithms in the magnetotelluric method of AMT data from the Grójec fault case study"
     },
     {
       "university": "AGH UST Cracow",
       "faculty": "Department of Geology, Geophysics and Enviromental Protection",
       "degree": "Bachelor of Engineering in Geophysics",
-      "graduated": "Jan 2018",
+      "graduated": "Jan 2019",
       "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso.",
-      "thesis": "Is god dead or just sleeping?"
+      "thesis": "Resolution analysis of transient electromagnetic sounding curves."
     }
   ],
   "experience": [
@@ -115,25 +114,29 @@
   ],
   "certifications": [
     {
-      "title": "AgilePM",
-      "issuer": "AgileInt",
-      "dates": "Dec 2019- dec 2077",
-      "credentialId": "1248128312",
-      "credentialsLink": "/#"
+      "title": "AgilePM® Foundation",
+      "issuer": "APMG International",
+      "dates": "Nov 2020",
+      "credentialsLink": "https://www.youracclaim.com/badges/1e9e73f0-a654-4029-a6fb-7bbede9e666e?source=linked_in_profile"
     },
     {
-      "title": "Data Scientist 20k",
-      "issuer": "BigDickData",
-      "dates": "Dec 2019- dec 2100",
-      "credentialId": "1248128312",
-      "credentialsLink": "/#"
+      "title": "Data Science Professional Certificate",
+      "issuer": "Coursera",
+      "dates": "Jan 2020",
+      "credentialsLink": "https://www.youracclaim.com/badges/fe10db90-ad48-41e9-b160-9c010bdd315a?source=linked_in_profile"
     },
     {
-      "title": "ECDL can use computer",
-      "issuer": "AgileInt",
-      "dates": "Dec 2019- dec 2077",
-      "credentialId": "1248128312",
-      "credentialsLink": "/#"
+      "title": "Data Science Orientation",
+      "issuer": "Coursera",
+      "dates": "Nov 2019",
+      "credentialsLink": "https://www.youracclaim.com/badges/a7ec8287-8b87-44bd-aa1a-7c8f3a0272b8?source=linked_in_profile"
+    },
+    {
+      "title": "ECDL Standard Certificate",
+      "issuer": "ECDL/ICDL Certification",
+      "dates": "Jul 2020",
+      "credentialId": "memzw2duhs",
+      "credentialsLink": "http://weryfikacja.pti.org.pl/"
     }
   ],
   "works": [

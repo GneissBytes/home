@@ -2,9 +2,9 @@ import React from "react";
 import { connect } from "react-redux";
 import { Download } from "react-bootstrap-icons";
 
-import './About.css'
+import "./About.css";
 import { State } from "../reducers";
-import { About as AboutType} from "../reducers/dataReducer";
+import { About as AboutType } from "../reducers/dataReducer";
 
 interface AboutProps {
   data: AboutType;
@@ -33,14 +33,28 @@ const About: React.FC<AboutProps> = ({ data }) => {
                 <p style={{ color: "#C6C69D" }}>
                   <span>{data.name}</span>
                   <br />
-                  <span>{data.street}</span>
-                  <br />
-                  <span>
-                    {data.city}, {data.state}, {data.postal_code}
-                  </span>
-                  <br />
-                  <span>{data.phone}</span>
-                  <br />
+                  {data.street ? (
+                    <>
+                      <span>{data.street}</span>
+                      <br />
+                    </>
+                  ) : (
+                    ""
+                  )}
+                  {data.city || data.state || data.postal_code ? (
+                    <>
+                      <span>
+                        {data.city ? data.city : ""}
+                        {data.state ? `, ${data.state}: ""` : ""}
+                        {data.postal_code ? `, ${data.postal_code}` : ""}
+                      </span>
+                      <br />
+                    </>
+                  ) : (
+                    ""
+                  )}
+                  {data.phone? <><span>{data.phone}</span>
+                  <br /></>: ""}
                   <span>{data.email}</span>
                 </p>
               </div>
