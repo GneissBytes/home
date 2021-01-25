@@ -9,6 +9,7 @@ export interface Home {
   name: string;
   description: string;
   occupation: string;
+  social_links?: Array<{ site: string, url:string }>
 }
 
 export interface About {

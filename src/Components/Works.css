@@ -3,3 +3,7 @@
 .works-header {
   margin-bottom: 30px
 }
+
+.works-container {
+  min-height: 300px;
+}

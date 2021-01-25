@@ -2,7 +2,12 @@
   "home": {
     "name": "I am what I am.",
     "occupation": "whatever-you-need-me-to",
-    "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso."
+    "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso.",
+    "social_links": [
+      { "site": "linkedin", "url": "http://linkedin.com" },
+      { "site": "github", "url": "http://linkedin.com" },
+      { "site": "stack", "url": "http://linkedin.com" }
+    ]
   },
   "about": {
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet odio feugiat aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque varius ut neque quis sagittis. Donec pellentesque, mauris ac fermentum semper, enim leo convallis tellus, sit amet pellentesque orci mi id urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus.",

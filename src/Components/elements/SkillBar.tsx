@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 
 import "./SkillBar.css";
-import useVisibility from "../hooks/useVisibility";
+import useVisibility from "../../hooks/useVisibility";
 import { SkillsItem } from "../../reducers/dataReducer";
 
 interface Props {
@@ -12,8 +12,7 @@ const SkillBar: React.FunctionComponent<Props> = ({
   data: { title, subtitle, level },
 }) => {
   const bar = useRef<HTMLInputElement>(null);
-  const [shown] = useVisibility(bar, false, true);
-
+  const [shown] = useVisibility(bar, true, true);
 
   return (
     <div className="row skill-bar-container" ref={bar}>
@@ -23,7 +22,10 @@ const SkillBar: React.FunctionComponent<Props> = ({
       </div>
       <div className="bar-container col-9">
         <div className="bar-border">
-          <div className="bar-level" style={{ width: shown?`${level}%`:"0%" }}></div>
+          <div
+            className="bar-level"
+            style={{ width: shown ? `${level}%` : "0%" }}
+          ></div>
         </div>
       </div>
     </div>

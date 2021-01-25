@@ -8,7 +8,7 @@
 
 import { useState, useEffect, RefObject, useMemo } from "react";
 
-const useHover = (itemRef: RefObject<HTMLDivElement>) => {
+const useHover = (itemRef: RefObject<HTMLDivElement>): [boolean] => {
   const [hovered, setHovered] = useState(false);
 
   useEffect(() => {

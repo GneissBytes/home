@@ -1,3 +1,107 @@
 .contact-container {
-    min-height: 500px;
+  padding: 60px 0;
+  min-height: 600px;
+  background-image: url("../assets/images/nyc.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  position: relative; 
+
+
+}
+
+.input-container {
+  margin: 10px 0;
+  width: 100%;
+}
+
+input,
+textarea {
+  font-weight: bold;
+  width: 100%;
+  background-color: #2b2b2b;
+  color: #fafbff;
+  border: 1px solid #222222;
+  padding: 15px;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(198, 198, 157);
+  color: #2b2b2b;
+  outline: none;
+}
+
+textarea {
+  height: 250px;
+  resize: none;
+}
+
+.submit-button {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 0.75em;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #2b2b2b;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  align-self: flex-end;
+  width: 200px;
+}
+
+.submit-button:focus,
+.submit-button:active,
+.submit-button:hover {
+  background-color: rgb(198, 198, 157);
+  color: #2b2b2b;
+  padding-right: 0px;
+  padding-left: 30px;
+}
+
+.field-label-container {
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.field-label {
+  padding-top: 10px;
+  color: #fafbff;
+}
+
+.form-container {
+  background-color: #2b2b2b4f;
+  padding: 10px 2px 10px 2px;
+  margin: 60px auto;
+  flex-direction: column !important;
+}
+
+.validation-error {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: thin;
+  font-size:large;
+  height: 20px;
+  width: 100%
+}
+
+.button-container{
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.scroll-top-btn {
+  display: flex;
+  justify-content: center;
 }

@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { List } from "react-bootstrap-icons";
 
 import "./Navbar.css";
-import useWidth from "./hooks/useWidth";
+import useWidth from "../hooks/useWidth";
 
 const Navbar: React.FC = () => {
   const [menuHidden, setMenuHidden] = useState(true);
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
       to={section}
       spy={true}
       smooth={true}
-      offset={-100}
+      offset={-50}
       duration={500}
       activeClass="active"
     >

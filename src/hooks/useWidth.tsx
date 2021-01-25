@@ -14,7 +14,7 @@ function getWindowWidth() {
   return width;
 }
 
-const useWidth = (minWidth: number) => {
+const useWidth = (minWidth: number):[boolean] => {
   const [width, setWidth] = useState(getWindowWidth());
 
   useEffect(() => {

@@ -18,6 +18,17 @@
   .scroll-button:hover {
     background-color: rgb(198, 198, 157);
     color: black;
+  }
+
+  .bottom.scroll-button:hover {
     padding-top: 30px;
   }
+
+  .top.scroll-button:hover {
+    padding-bottom: 30px;
+  }
+
+
+
+
   

@@ -2,8 +2,8 @@ import React, { useRef, useMemo } from "react";
 import { Github, Window, Phone } from "react-bootstrap-icons";
 
 import "./PortfolioItem.css";
-import useWidth from "../hooks/useWidth";
-import useHover from "../hooks/useHover";
+import useWidth from "../../hooks/useWidth";
+import useHover from "../../hooks/useHover";
 import { WorksItem } from "../../reducers/dataReducer";
 interface Props {
   data: WorksItem;

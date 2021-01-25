@@ -12,7 +12,7 @@ interface Props {
 
 const Works: React.FC<Props> = ({ data }) => {
   return (
-    <div className="resume-container" id="works">
+    <div className="resume-container works-container" id="works">
       <div className="container">
         <div className="row works-header">
           <div className="col-md-4">

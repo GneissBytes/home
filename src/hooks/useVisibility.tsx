@@ -1,7 +1,7 @@
 /**
  * Checks if referenced element is visible on viewport.
  *
- * @param {RefObject<HTMLDivElement>} itemRef Reference to the element
+ * @param {RefObject<HTMLDivElement>} itemRef Reference to the div element
  * @param {boolean} partial Should whole element be concidered or a part of it
  * @param {boolean} once Should visibility be triggered only on first viewing
  *
@@ -12,7 +12,6 @@ import { useState, RefObject, useEffect } from "react";
 import _ from "lodash";
 
 const checkVisible = (element: RefObject<HTMLDivElement>, partial: boolean) => {
-  console.log("checking");
   if (!element.current) return false;
 
   const {
@@ -48,12 +47,11 @@ const useVisibility = (
   itemRef: RefObject<HTMLDivElement>,
   partial: boolean,
   once: boolean
-) => {
+): [boolean] => {
   const [visible, setVisible] = useState(false);
   const [triggered, setTriggered] = useState(false);
 
   useEffect(() => {
-    console.log("running useEffect");
     const delayedCheckVisibility = _.throttle(
       () => setVisible(checkVisible(itemRef, partial)),
       250
