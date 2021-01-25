@@ -1,6 +1,6 @@
 {
-  "name": "my-site",
-  "homepage":"http://GneissBytes.github.io/my-site",
+  "name": "home",
+  "homepage": "http://GneissBytes.github.io/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
