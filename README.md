@@ -5,7 +5,7 @@ Site is built with React with hooks. I have used Bootstrap and Google Fonts for 
 
 ## Available Scripts
 
-If you want to run locally first run npm install before. In the project directory, you can run:
+If you want to run locally first run npm install. In the project directory, you can run:
 
 ### `npm start`
 
