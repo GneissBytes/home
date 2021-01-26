@@ -18,6 +18,7 @@ const Experience: React.FC<props> = ({ data }: props) => {
           header: item.roletitle,
           subheader: item.dates,
           description: item.description,
+          link: item.link,
         };
       });
 

@@ -9,7 +9,7 @@ export interface Home {
   name: string;
   description: string;
   occupation: string;
-  social_links?: Array<{ site: string, url:string }>
+  social_links?: Array<{ site: string; url: string }>;
 }
 
 export interface About {
@@ -37,7 +37,12 @@ export interface EducationItem {
 export interface ExperienceItem {
   organization: string;
   totaltime?: string;
-  roles: Array<{ roletitle: string; dates: string; description: string }>;
+  roles: Array<{
+    roletitle: string;
+    dates: string;
+    description: string;
+    link?: { text: string; href: string };
+  }>;
 }
 
 export interface SkillsItem {

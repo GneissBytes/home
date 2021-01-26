@@ -1,8 +1,8 @@
 {
   "home": {
-    "name": "I am what I am.",
-    "occupation": "whatever-you-need-me-to",
-    "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso.",
+    "name": "I am Piotr Ułasiewicz.",
+    "occupation": "junior web and app developer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat ultricies condimentum. Sed luctus sed nulla sit amet lacinia. In feugiat velit a nibh consequat faucibus. Vivamus sollicitudin odio ut semper dignissim. Nunc ut nulla id neque sagittis placerat quis in est. Morbi condimentum eros ut magna efficitur, sit amet lacinia nibh gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
     "social_links": [
       { "site": "linkedin", "url": "https://www.linkedin.com/in/pulasiewicz/" },
       { "site": "github", "url": "https://github.com/GneissBytes" },
@@ -18,84 +18,83 @@
     "city": "Cracow",
     "email": "pi.ulasiewicz@gmail.com",
     "profile_pic": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b1/b16628f6450811e9154eb9fbe524692577072770_full.jpg",
-    "resume_link": "#"
+    "resume_link": "https://www.linkedin.com/in/pulasiewicz"
   },
   "education": [
     {
       "university": "AGH UST Cracow",
       "faculty": "Department of Geology, Geophysics and Enviromental Protection",
       "degree": "Master's degree in Applied Geophysics",
-      "graduated": "Dec 2020",
-      "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso.",
+      "graduated": "2019 - 2020",
+      "description": "Pellentesque maximus, eros a faucibus vestibulum, lacus ante luctus justo, non laoreet ex tellus accumsan tellus. Ut cursus augue non luctus rhoncus. Vestibulum vitae leo sit amet ipsum ornare blandit quis et sapien. Duis tincidunt, lectus vel finibus vulputate, diam quam auctor dolor, sed eleifend erat nibh ut dolor. Curabitur ac consequat massa. Sed non pellentesque massa. Morbi dapibus varius sapien, quis maximus leo commodo sit amet. Donec nulla est, sagittis a tortor non, egestas pretium nisl",
       "thesis": "Comparison of 1D and 2D inversion algorithms in the magnetotelluric method of AMT data from the Grójec fault case study"
     },
     {
       "university": "AGH UST Cracow",
       "faculty": "Department of Geology, Geophysics and Enviromental Protection",
       "degree": "Bachelor of Engineering in Geophysics",
-      "graduated": "Jan 2019",
-      "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso.",
+      "graduated": "2015 - 2019",
+      "description": "Proin ac interdum orci. Duis ligula eros, semper nec diam sed, sodales bibendum orci. In in erat ut felis porta gravida. Cras sit amet consequat mi. Nulla at malesuada nulla, et rhoncus massa. Vestibulum pretium, urna eget tincidunt euismod, ligula sapien consectetur odio, vitae finibus erat neque non ipsum. Quisque purus urna, sodales non accumsan id, placerat vel neque.",
       "thesis": "Resolution analysis of transient electromagnetic sounding curves."
     }
   ],
   "experience": [
     {
-      "organization": "BigCorp AG",
-      "totaltime": "10 years",
+      "organization": "EAGE",
+      "totaltime": "2 years, 3 months",
       "roles": [
         {
-          "roletitle": "CEO",
-          "dates": "Dec 2019- dec 2077",
-          "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso."
+          "roletitle": "Chairman Of The Board - EAGE Student Chapter Cracow",
+          "dates": "Dec 2019 - Dec 2077",
+          "description": "As a chairman my responsibilities included communications with EAGE, arranging sponsorship for GEOSFERA Annual Workshops, and coordinating the board's tasks. Alike the year before, my quiz team managed to score top 3 in the online geo quiz and was awarded travel grants to the annual EAGE conference in Amsterdam, but due to COVID19, the conference was postponed."
         },
         {
-          "roletitle": "CEO",
-          "dates": "Dec 2019- dec 2077",
-          "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso."
+          "roletitle": "Spokesman - EAGE Student Chapter Cracow",
+          "dates": "Oct 2018 - Dec 2019",
+          "description": "My main responsibilities as Chapter's spokesman included managing communications with students and Geophone Student Geophysical Society, organizing chapter meetings and workshops, and creating media materials for our Facebook page which I managed. During my time as spokesman, our chapter was voted no.1 Student Chapter and was awarded the 2000Є prize. The quiz team led by me managed to score top 3 in online geo-quiz and was awarded travel grants to an annual EAGE conference in London, where I and my colleagues managed to beat every other team and win the main prize."
+        },
+        {
+          "roletitle": "Speaker - 80th EAGE Conference & Exhibition 2018",
+          "dates": "Jun 11 - Jun 14 2018",
+          "description": "My and my colleague's work by recognized by EAGE. We were awarded travel grants and conference tickets for the 2018 EAGE Annual Conference, where we had presented our findings. The abstract is available on earthdoc.org.",
+          "link": {
+            "text": "P. Ułasiewicz, M. Ziobro 2018, Lateral Range Issue in ERT - Analogue Modelling with 2D and Quasi-3D Inversion",
+            "href": "https://www.earthdoc.org/content/papers/10.3997/2214-4609.201801735"
+          }
         }
       ]
     },
     {
-      "organization": "BigCorp AG",
-      "totaltime": "10 years",
+      "organization": "Society of Exploration Geophysicists",
+      "totaltime": "9 months",
       "roles": [
         {
-          "roletitle": "CEO",
-          "dates": "Dec 2019- dec 2077",
-          "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso."
+          "roletitle": "SEG EVOLVE 2019 Team Lead",
+          "dates": "Jan 2019 - Sep 2019",
+          "description": "As the team leader and originator, I was tasked with assembling a team of geologists, geophysicists, and petroleum engineers, creating promotional materials for my team, and presenting our work during bi-weekly meetings. For our task of finding oil, I was the main geophysicist and petrophysist. I had the honor of presenting our results during Annual SEG Meeting 2019 in San Antonio, TX."
+        }
+      ]
+    },
+    {
+      "organization": "Geophone - Student Geophysical Society AGH",
+      "totaltime": "2 years, 2 months",
+      "roles": [
+        {
+          "roletitle": "Survey Supervisor",
+          "dates": "Aug 2017 - Nov 2018",
+          "description": "As a survey supervisor, I have organized and conducted geophysical surveys in Tyniec, Cracow. I was also a member of the organizing committee for the 11th National Geophysical Workshop \"Geosfera 2018\"."
         },
         {
-          "roletitle": "CEO",
-          "dates": "Dec 2019- dec 2077",
-          "description": "Beams remarkable global Comme des Garçons Toto emerging first-class soft power. Exclusive efficient eclectic Helsinki emerging. Global conversation bureaux St Moritz hub the best tote bag Shinkansen punctual K-pop finest Sunspel espresso."
+          "roletitle": "Member",
+          "dates": "Oct 2016 - Jul 2017",
+          "description": "As a member of the Geophone Student Society, I participated and helped in organizing various events and workshops."
         }
       ]
     }
   ],
   "skills": [
-    {
-      "title": "typescript",
-      "subtitle": "master blaster",
-      "level": 50
-    },
-    {
-      "title": "react",
-      "subtitle": "with hooks",
-      "level": 75
-    },
-    {
-      "title": "webdev",
-      "level": 100
-    },
-    {
-      "title": "nodejs",
-      "level": 10
-    },
-    {
-      "title": "MS Office",
-      "subtitle": "Who would've thought",
-      "level": 95
-    },
+    { "title": "git", "level": 65 },
+    { "title": "docker", "level": 20 },
     {
       "title": "HTML5",
       "subtitle": "<html />",
@@ -108,7 +107,34 @@
     },
     {
       "title": "JS ES2015/ES6",
-      "subtitle": "dont know previous one",
+      "level": 75
+    },
+    {
+      "title": "typescript",
+      "level": 50
+    },
+    {
+      "title": "react",
+      "subtitle": "mostly with hooks",
+      "level": 60
+    },
+    {
+      "title": "react-native",
+      "level": 40
+    },
+    { "title": "ejs", "level": 60 },
+    { "title": "mongodb", "subtitle": "noSQL", "level": 45 },
+    { "title": "expressjs", "level": 50 },
+    {
+      "title": "agile",
+      "level": 40
+    },
+    {
+      "title": "svelte",
+      "level": 20
+    },
+    {
+      "title": "MS Office",
       "level": 80
     }
   ],
@@ -141,83 +167,43 @@
   ],
   "works": [
     {
-      "title": "Facebook",
-      "description": "No1 data mining operation. Millions of satisfied users, gonna do some reworking but is kool. Made with php 0.0 and c++",
-      "imageName": "fb.jpg",
-      "imageAlt": "fbbb",
+      "title": "Camp Advisor",
+      "description": "Yelp but for camps. Frontend done with ejs and Bootstrap, expressjs and mongodb backend.",
+      "imageName": "campadvisor.jpg",
+      "imageAlt": "CampAdvisor",
       "links": {
-        "github": "http://github.com",
-        "own": "http://github.com",
-        "expo": "http://github.com"
+        "github": "https://github.com/GneissBytes/CampAdvisor",
+        "own": "https://camp-advisor37812.herokuapp.com/"
       }
     },
     {
-      "title": "AgilePM",
-      "description": "No1 data mining operation",
-      "imageName": "bf.jpg",
-      "imageAlt": "dsadas",
+      "title": "RunTracker",
+      "description": "Location tracking react-native app. Made with expo-cli. Backend on expressjs and mongodb.",
+      "imageName": "runtracker.jpg",
+      "imageAlt": "Run Tracker",
       "links": {
-        "github": "http://github.com",
-        "own": "http://github.com",
-        "expo": "http://github.com"
+        "github": "https://github.com/GneissBytes/learning-react-native-runningapp-client",
+        "expo": "https://expo.io/@gneissbytes/projects/learning-react-native-runningapp-client"
       }
     },
     {
-      "title": "Facebook 2",
-      "description": "No1 data mining operation",
-      "imageName": "fb.jpg",
-      "imageAlt": "fdsabbb",
+      "title": "ProjectPoller",
+      "description": "React polling web app. Uses Google OAuth for authorization, Stripe for payment processing, and sendgrid for message dispatch. Expressjs and mongodb backend.",
+      "imageName": "poller.jpg",
+      "imageAlt": "ProjectPoller",
       "links": {
-        "github": "http://github.com"
+        "own": "https://tracking-app3812.herokuapp.com/",
+        "github": "https://github.com/GneissBytes/ProjectPoller"
       }
     },
     {
-      "title": "AgilePM 2",
-      "description": "No1 data mining operation",
-      "imageName": "bf.jpg",
-      "imageAlt": "fbda2q4bb",
+      "title": "My homepage/resume",
+      "description": "Site you are currently viewing. Made with react, uses Bootstrap and Google Fonts.",
+      "imageName": "homepage.jpg",
+      "imageAlt": "GneissBytes home",
       "links": {
-        "github": "http://github.com",
-        "own": "http://github.com"
-      }
-    },
-    {
-      "title": "Facebook 3 tokio drift",
-      "description": "No1 data mining operation",
-      "imageName": "fb.jpg",
-      "imageAlt": "fdsadcbbb",
-      "links": {
-        "github": "github.com",
-        "own": "github.com"
-      }
-    },
-    {
-      "title": "AgilePM 3 tokio drift",
-      "description": "No1 data mining operation",
-      "imageName": "bf.jpg",
-      "imageAlt": "fbdsabb",
-      "links": {
-        "github": "http://github.com",
-        "own": "http://github.com"
-      }
-    },
-    {
-      "title": "Facebook 4",
-      "description": "No1 data mining operation",
-      "imageName": "fb.jpg",
-      "imageAlt": "fbbbdsa",
-      "links": {
-        "github": "http://github.com",
-        "own": "http://github.com"
-      }
-    },
-    {
-      "title": "AgilePM 4",
-      "description": "No1 data mining operation",
-      "imageName": "bf.jpg",
-      "imageAlt": "fbbsdab",
-      "links": {
-        "own": "http://github.com"
+        "own": "https://gneissbytes.github.io/home/",
+        "github": "https://github.com/GneissBytes/home"
       }
     }
   ]

@@ -38,7 +38,7 @@ const Home: React.FC<HomeProps> = ({ data }) => {
                 {data.name}
               </h1>
               <p className="text-light">
-                I'm a Night City based <strong>{data.occupation}</strong>.{" "}
+                I'm a Cracow based <strong>{data.occupation}</strong>.{" "}
                 {data.description}
               </p>
               {renderSocialLinks()}
