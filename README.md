@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# Welcome to my home page/resume!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site is built with React with hooks. I have used Bootstrap and Google Fonts for styling, no jquery.
 
 ## Available Scripts
 
-In the project directory, you can run:
+If you want to run locally first run npm install before. In the project directory, you can run:
 
 ### `npm start`
 
