@@ -119,8 +119,13 @@
       "level": 60
     },
     {
+      "title": "redux",
+      "subtitle": "thunk included",
+      "level": 60
+    },
+    {
       "title": "react-native",
-      "level": 40
+      "level": 35
     },
     { "title": "ejs", "level": 60 },
     { "title": "mongodb", "subtitle": "noSQL", "level": 45 },
